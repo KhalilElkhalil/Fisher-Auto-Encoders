@@ -1,0 +1,26 @@
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:50<16:48, 50.45s/it] 10%|▉         | 2/21 [01:38<15:45, 49.76s/it] 14%|█▍        | 3/21 [02:26<14:46, 49.23s/it] 19%|█▉        | 4/21 [03:14<13:48, 48.74s/it] 24%|██▍       | 5/21 [04:02<12:57, 48.58s/it] 29%|██▊       | 6/21 [04:50<12:05, 48.38s/it] 33%|███▎      | 7/21 [05:37<11:11, 47.94s/it] 38%|███▊      | 8/21 [06:24<10:21, 47.78s/it] 43%|████▎     | 9/21 [07:12<09:32, 47.69s/it] 48%|████▊     | 10/21 [07:59<08:44, 47.70s/it] 52%|█████▏    | 11/21 [08:47<07:56, 47.63s/it] 57%|█████▋    | 12/21 [09:35<07:08, 47.66s/it] 62%|██████▏   | 13/21 [10:22<06:21, 47.66s/it] 67%|██████▋   | 14/21 [11:09<05:32, 47.52s/it] 71%|███████▏  | 15/21 [11:57<04:45, 47.54s/it] 76%|███████▌  | 16/21 [12:45<03:57, 47.59s/it] 81%|████████  | 17/21 [13:33<03:10, 47.70s/it] 86%|████████▌ | 18/21 [14:21<02:23, 47.85s/it] 90%|█████████ | 19/21 [15:09<01:35, 47.94s/it] 95%|█████████▌| 20/21 [15:57<00:47, 47.99s/it]100%|██████████| 21/21 [16:45<00:00, 47.93s/it]
+Epoch :  0  | Loss VAE: 62.8604 | Loss MSE: 26.0360  | lr :  0.001
+Epoch :  1  | Loss VAE: 31.8729 | Loss MSE: 21.3595  | lr :  0.001
+Epoch :  2  | Loss VAE: 34.9160 | Loss MSE: 17.1940  | lr :  0.001
+Epoch :  3  | Loss VAE: 34.4142 | Loss MSE: 15.8270  | lr :  0.001
+Epoch :  4  | Loss VAE: 33.1873 | Loss MSE: 14.9469  | lr :  0.001
+Epoch :  5  | Loss VAE: 32.3491 | Loss MSE: 14.4436  | lr :  0.001
+Epoch :  6  | Loss VAE: 32.2607 | Loss MSE: 14.0039  | lr :  0.001
+Epoch :  7  | Loss VAE: 44.1746 | Loss MSE: 14.9987  | lr :  0.001
+Epoch :  8  | Loss VAE: 37.7260 | Loss MSE: 14.0577  | lr :  0.001
+Epoch :  9  | Loss VAE: 41.4145 | Loss MSE: 13.7715  | lr :  0.001
+Epoch :  10  | Loss VAE: 34.3045 | Loss MSE: 13.1583  | lr :  0.001
+Epoch :  11  | Loss VAE: 32.1742 | Loss MSE: 12.8317  | lr :  0.001
+Epoch :  12  | Loss VAE: 32.7026 | Loss MSE: 12.7891  | lr :  0.001
+Epoch :  13  | Loss VAE: 34.2986 | Loss MSE: 12.6360  | lr :  0.001
+Epoch :  14  | Loss VAE: 34.7866 | Loss MSE: 12.5370  | lr :  0.001
+Epoch :  15  | Loss VAE: 38.8458 | Loss MSE: 12.6685  | lr :  0.001
+Epoch :  16  | Loss VAE: 35.3842 | Loss MSE: 12.2593  | lr :  0.001
+Epoch :  17  | Loss VAE: 33.8464 | Loss MSE: 12.0868  | lr :  0.001
+Epoch :  18  | Loss VAE: 32.1725 | Loss MSE: 11.8922  | lr :  0.001
+Epoch :  19  | Loss VAE: 34.0386 | Loss MSE: 11.9698  | lr :  0.001
+Epoch :  20  | Loss VAE: 33.1282 | Loss MSE: 11.9122  | lr :  0.001
+Traceback (most recent call last):
+  File "train.py", line 135, in <module>
+    initialize_fid(test_loader['mnist'], sample_size=10000)
+NameError: name 'initialize_fid' is not defined

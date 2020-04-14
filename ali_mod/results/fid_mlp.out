@@ -1,0 +1,1185 @@
+  0%|          | 0/1001 [00:00<?, ?it/s]  0%|          | 1/1001 [00:26<7:26:40, 26.80s/it]  0%|          | 2/1001 [00:52<7:21:29, 26.52s/it]  0%|          | 3/1001 [01:16<7:07:55, 25.73s/it]  0%|          | 4/1001 [01:40<7:00:06, 25.28s/it]  0%|          | 5/1001 [02:06<7:03:36, 25.52s/it]  1%|          | 6/1001 [03:30<11:54:50, 43.11s/it]  1%|          | 7/1001 [03:58<10:34:52, 38.32s/it]  1%|          | 8/1001 [04:25<9:41:55, 35.16s/it]   1%|          | 9/1001 [04:53<9:04:10, 32.91s/it]  1%|          | 10/1001 [05:19<8:30:14, 30.89s/it]  1%|          | 11/1001 [06:21<11:00:25, 40.03s/it]  1%|          | 12/1001 [06:48<9:56:58, 36.22s/it]   1%|▏         | 13/1001 [07:15<9:12:50, 33.57s/it]  1%|▏         | 14/1001 [07:43<8:45:15, 31.93s/it]  1%|▏         | 15/1001 [08:10<8:20:25, 30.45s/it]  2%|▏         | 16/1001 [09:12<10:55:06, 39.91s/it]  2%|▏         | 17/1001 [09:40<9:53:47, 36.21s/it]   2%|▏         | 18/1001 [10:07<9:08:36, 33.49s/it]  2%|▏         | 19/1001 [10:34<8:37:43, 31.63s/it]  2%|▏         | 20/1001 [11:01<8:14:20, 30.24s/it]  2%|▏         | 21/1001 [12:08<11:12:02, 41.15s/it]  2%|▏         | 22/1001 [12:36<10:05:26, 37.11s/it]  2%|▏         | 23/1001 [13:03<9:18:24, 34.26s/it]   2%|▏         | 24/1001 [13:31<8:45:03, 32.25s/it]  2%|▏         | 25/1001 [13:57<8:12:25, 30.27s/it]  3%|▎         | 26/1001 [15:03<11:06:49, 41.04s/it]  3%|▎         | 27/1001 [15:30<9:58:51, 36.89s/it]   3%|▎         | 28/1001 [15:56<9:07:12, 33.74s/it]  3%|▎         | 29/1001 [16:22<8:27:40, 31.34s/it]  3%|▎         | 30/1001 [16:49<8:06:37, 30.07s/it]  3%|▎         | 31/1001 [17:56<11:03:03, 41.01s/it]  3%|▎         | 32/1001 [18:23<9:57:37, 37.00s/it]   3%|▎         | 33/1001 [18:47<8:50:50, 32.90s/it]  3%|▎         | 34/1001 [19:13<8:19:53, 31.02s/it]  3%|▎         | 35/1001 [19:41<8:01:59, 29.94s/it]  4%|▎         | 36/1001 [20:45<10:47:35, 40.26s/it]  4%|▎         | 37/1001 [21:12<9:40:19, 36.12s/it]   4%|▍         | 38/1001 [21:38<8:53:16, 33.23s/it]  4%|▍         | 39/1001 [22:06<8:25:52, 31.55s/it]  4%|▍         | 40/1001 [22:34<8:08:55, 30.53s/it]  4%|▍         | 41/1001 [23:38<10:48:28, 40.53s/it]Epoch :  0  | Loss VAE: 31.8923 | Loss MSE: 27.9198  | lr :  9.998e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  1  | Loss VAE: 21.3361 | Loss MSE: 17.9999  | lr :  9.996000400000001e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  2  | Loss VAE: 17.3384 | Loss MSE: 13.7812  | lr :  9.994001199920001e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  3  | Loss VAE: 15.0250 | Loss MSE: 12.0268  | lr :  9.992002399680017e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  4  | Loss VAE: 13.5562 | Loss MSE: 10.7527  | lr :  9.990003999200082e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  5  | Loss VAE: 12.3813 | Loss MSE: 9.9471  | lr :  9.988005998400241e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.49907673322033
+Epoch :  6  | Loss VAE: 11.6934 | Loss MSE: 9.3633  | lr :  9.986008397200563e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  7  | Loss VAE: 10.9442 | Loss MSE: 8.7456  | lr :  9.984011195521122e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  8  | Loss VAE: 10.4113 | Loss MSE: 8.2502  | lr :  9.982014393282017e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  9  | Loss VAE: 9.9278 | Loss MSE: 7.8829  | lr :  9.980017990403362e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  10  | Loss VAE: 9.5411 | Loss MSE: 7.5939  | lr :  9.978021986805281e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.16681409664955
+Epoch :  11  | Loss VAE: 9.2680 | Loss MSE: 7.3782  | lr :  9.976026382407921e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  12  | Loss VAE: 9.0093 | Loss MSE: 7.1799  | lr :  9.974031177131439e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  13  | Loss VAE: 8.8083 | Loss MSE: 7.0214  | lr :  9.972036370896013e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  14  | Loss VAE: 8.6597 | Loss MSE: 6.8799  | lr :  9.970041963621835e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  15  | Loss VAE: 8.5466 | Loss MSE: 6.7627  | lr :  9.96804795522911e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.70834976626662
+Epoch :  16  | Loss VAE: 8.4076 | Loss MSE: 6.6415  | lr :  9.966054345638064e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  17  | Loss VAE: 8.3271 | Loss MSE: 6.5438  | lr :  9.964061134768937e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  18  | Loss VAE: 8.1647 | Loss MSE: 6.4366  | lr :  9.962068322541983e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  19  | Loss VAE: 8.1103 | Loss MSE: 6.3582  | lr :  9.960075908877476e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  20  | Loss VAE: 7.9760 | Loss MSE: 6.2711  | lr :  9.9580838936957e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.36036967618347
+Epoch :  21  | Loss VAE: 7.9685 | Loss MSE: 6.2138  | lr :  9.95609227691696e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  22  | Loss VAE: 7.8849 | Loss MSE: 6.1429  | lr :  9.954101058461579e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  23  | Loss VAE: 7.7453 | Loss MSE: 6.0629  | lr :  9.952110238249885e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  24  | Loss VAE: 7.7139 | Loss MSE: 6.0164  | lr :  9.950119816202236e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  25  | Loss VAE: 7.6571 | Loss MSE: 5.9545  | lr :  9.948129792238996e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+174.64354112711405
+Epoch :  26  | Loss VAE: 7.7010 | Loss MSE: 5.9208  | lr :  9.946140166280549e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  27  | Loss VAE: 7.5854 | Loss MSE: 5.8643  | lr :  9.944150938247291e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  28  | Loss VAE: 7.4723 | Loss MSE: 5.8063  | lr :  9.942162108059643e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  29  | Loss VAE: 7.5251 | Loss MSE: 5.7752  | lr :  9.940173675638032e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  30  | Loss VAE: 7.4470 | Loss MSE: 5.7250  | lr :  9.938185640902904e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.8443247311685
+Epoch :  31  | Loss VAE: 7.4225 | Loss MSE: 5.6922  | lr :  9.936198003774724e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  32  | Loss VAE: 7.3071 | Loss MSE: 5.6336  | lr :  9.934210764173969e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  33  | Loss VAE: 7.3176 | Loss MSE: 5.6111  | lr :  9.932223922021134e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  34  | Loss VAE: 7.2932 | Loss MSE: 5.5748  | lr :  9.93023747723673e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  35  | Loss VAE: 7.2647 | Loss MSE: 5.5392  | lr :  9.928251429741283e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.7015233979616
+Epoch :  36  | Loss VAE: 7.2566 | Loss MSE: 5.5116  | lr :  9.926265779455335e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  37  | Loss VAE: 7.2892 | Loss MSE: 5.4930  | lr :  9.924280526299444e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  38  | Loss VAE: 7.1405 | Loss MSE: 5.4370  | lr :  9.922295670194185e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  39  | Loss VAE: 7.1751 | Loss MSE: 5.4195  | lr :  9.920311211060146e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  40  | Loss VAE: 7.1711 | Loss MSE: 5.3961  | lr :  9.918327148817934e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.5039255717584
+Epoch :  41  | Loss VAE: 7.2091 | Loss MSE: 5.3802  | lr :  9.916343483388171e-05  4%|▍         | 42/1001 [24:03<9:36:33, 36.07s/it]   4%|▍         | 43/1001 [24:30<8:49:39, 33.17s/it]  4%|▍         | 44/1001 [24:57<8:22:29, 31.50s/it]  4%|▍         | 45/1001 [25:25<8:03:15, 30.33s/it]  5%|▍         | 46/1001 [26:25<10:22:29, 39.11s/it]  5%|▍         | 47/1001 [26:52<9:25:10, 35.55s/it]   5%|▍         | 48/1001 [27:19<8:46:48, 33.17s/it]  5%|▍         | 49/1001 [27:47<8:21:15, 31.59s/it]  5%|▍         | 50/1001 [28:14<7:58:29, 30.19s/it]  5%|▌         | 51/1001 [29:16<10:27:39, 39.64s/it]  5%|▌         | 52/1001 [29:44<9:32:07, 36.17s/it]   5%|▌         | 53/1001 [30:12<8:50:43, 33.59s/it]  5%|▌         | 54/1001 [30:39<8:20:04, 31.68s/it]  5%|▌         | 55/1001 [31:04<7:50:10, 29.82s/it]  6%|▌         | 56/1001 [32:11<10:42:49, 40.81s/it]  6%|▌         | 57/1001 [32:37<9:35:12, 36.56s/it]   6%|▌         | 58/1001 [33:04<8:47:59, 33.59s/it]  6%|▌         | 59/1001 [33:30<8:11:41, 31.32s/it]  6%|▌         | 60/1001 [33:55<7:42:01, 29.46s/it]  6%|▌         | 61/1001 [35:01<10:34:12, 40.48s/it]  6%|▌         | 62/1001 [35:28<9:29:51, 36.41s/it]   6%|▋         | 63/1001 [35:55<8:45:40, 33.63s/it]  6%|▋         | 64/1001 [36:22<8:13:57, 31.63s/it]  6%|▋         | 65/1001 [36:50<7:54:22, 30.41s/it]  7%|▋         | 66/1001 [37:58<10:49:14, 41.66s/it]  7%|▋         | 67/1001 [38:25<9:38:59, 37.19s/it]   7%|▋         | 68/1001 [38:51<8:49:36, 34.06s/it]  7%|▋         | 69/1001 [39:18<8:14:49, 31.86s/it]  7%|▋         | 70/1001 [39:46<7:56:07, 30.69s/it]  7%|▋         | 71/1001 [40:49<10:27:02, 40.45s/it]  7%|▋         | 72/1001 [41:16<9:23:26, 36.39s/it]   7%|▋         | 73/1001 [41:43<8:40:44, 33.67s/it]  7%|▋         | 74/1001 [42:11<8:11:17, 31.80s/it]  7%|▋         | 75/1001 [42:39<7:52:54, 30.64s/it]  8%|▊         | 76/1001 [43:40<10:12:03, 39.70s/it]  8%|▊         | 77/1001 [44:08<9:17:01, 36.17s/it]   8%|▊         | 78/1001 [44:35<8:36:49, 33.60s/it]  8%|▊         | 79/1001 [45:03<8:08:54, 31.82s/it]  8%|▊         | 80/1001 [45:30<7:47:55, 30.48s/it]  8%|▊         | 81/1001 [46:34<10:18:28, 40.34s/it]  8%|▊         | 82/1001 [47:01<9:19:20, 36.52s/it] 
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  42  | Loss VAE: 7.1033 | Loss MSE: 5.3398  | lr :  9.914360214691494e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  43  | Loss VAE: 7.1011 | Loss MSE: 5.3212  | lr :  9.912377342648556e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  44  | Loss VAE: 7.1093 | Loss MSE: 5.2992  | lr :  9.910394867180026e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  45  | Loss VAE: 7.0861 | Loss MSE: 5.2696  | lr :  9.90841278820659e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.18163962683593
+Epoch :  46  | Loss VAE: 7.1548 | Loss MSE: 5.2692  | lr :  9.906431105648948e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  47  | Loss VAE: 7.1148 | Loss MSE: 5.2417  | lr :  9.904449819427819e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  48  | Loss VAE: 7.0684 | Loss MSE: 5.2113  | lr :  9.902468929463934e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  49  | Loss VAE: 7.0246 | Loss MSE: 5.1910  | lr :  9.900488435678041e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  50  | Loss VAE: 6.9872 | Loss MSE: 5.1656  | lr :  9.898508337990906e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.88967859710812
+Epoch :  51  | Loss VAE: 7.0869 | Loss MSE: 5.1685  | lr :  9.896528636323308e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  52  | Loss VAE: 6.9569 | Loss MSE: 5.1283  | lr :  9.894549330596043e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  53  | Loss VAE: 7.0804 | Loss MSE: 5.1328  | lr :  9.892570420729925e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  54  | Loss VAE: 6.9839 | Loss MSE: 5.0978  | lr :  9.890591906645779e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  55  | Loss VAE: 6.9655 | Loss MSE: 5.0733  | lr :  9.88861378826445e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+176.37007616682567
+Epoch :  56  | Loss VAE: 6.9399 | Loss MSE: 5.0596  | lr :  9.886636065506797e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  57  | Loss VAE: 6.9654 | Loss MSE: 5.0455  | lr :  9.884658738293696e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  58  | Loss VAE: 6.9753 | Loss MSE: 5.0377  | lr :  9.882681806546038e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  59  | Loss VAE: 6.8943 | Loss MSE: 5.0086  | lr :  9.880705270184729e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  60  | Loss VAE: 6.9809 | Loss MSE: 5.0108  | lr :  9.878729129130691e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+170.42530121552886
+Epoch :  61  | Loss VAE: 6.8810 | Loss MSE: 4.9768  | lr :  9.876753383304866e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  62  | Loss VAE: 6.8567 | Loss MSE: 4.9589  | lr :  9.874778032628206e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  63  | Loss VAE: 6.9352 | Loss MSE: 4.9605  | lr :  9.87280307702168e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  64  | Loss VAE: 6.9282 | Loss MSE: 4.9468  | lr :  9.870828516406275e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  65  | Loss VAE: 6.8900 | Loss MSE: 4.9276  | lr :  9.868854350702995e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.48959016128427
+Epoch :  66  | Loss VAE: 6.9845 | Loss MSE: 4.9340  | lr :  9.866880579832855e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  67  | Loss VAE: 6.9414 | Loss MSE: 4.9165  | lr :  9.864907203716888e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  68  | Loss VAE: 6.9207 | Loss MSE: 4.8973  | lr :  9.862934222276145e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  69  | Loss VAE: 7.0179 | Loss MSE: 4.9014  | lr :  9.86096163543169e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  70  | Loss VAE: 6.9316 | Loss MSE: 4.8745  | lr :  9.858989443104603e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+194.9649631458435
+Epoch :  71  | Loss VAE: 6.9706 | Loss MSE: 4.8711  | lr :  9.857017645215984e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  72  | Loss VAE: 6.9462 | Loss MSE: 4.8539  | lr :  9.85504624168694e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  73  | Loss VAE: 7.0169 | Loss MSE: 4.8608  | lr :  9.853075232438604e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  74  | Loss VAE: 6.9460 | Loss MSE: 4.8347  | lr :  9.851104617392115e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  75  | Loss VAE: 6.9872 | Loss MSE: 4.8303  | lr :  9.849134396468637e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.43370713392883
+Epoch :  76  | Loss VAE: 6.9822 | Loss MSE: 4.8173  | lr :  9.847164569589343e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  77  | Loss VAE: 6.9623 | Loss MSE: 4.8054  | lr :  9.845195136675425e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  78  | Loss VAE: 7.1345 | Loss MSE: 4.8258  | lr :  9.84322609764809e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  79  | Loss VAE: 6.9159 | Loss MSE: 4.7763  | lr :  9.841257452428561e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  80  | Loss VAE: 6.9204 | Loss MSE: 4.7698  | lr :  9.839289200938076e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+174.1510264064546
+Epoch :  81  | Loss VAE: 6.9014 | Loss MSE: 4.7561  | lr :  9.837321343097888e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  82  | Loss VAE: 7.0040 | Loss MSE: 4.7634  | lr :  9.835353878829269e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)  8%|▊         | 83/1001 [47:28<8:34:32, 33.63s/it]  8%|▊         | 84/1001 [47:55<8:01:14, 31.49s/it]  8%|▊         | 85/1001 [48:21<7:39:07, 30.07s/it]  9%|▊         | 86/1001 [49:28<10:27:59, 41.18s/it]  9%|▊         | 87/1001 [49:56<9:25:05, 37.10s/it]   9%|▉         | 88/1001 [50:24<8:40:38, 34.22s/it]  9%|▉         | 89/1001 [50:50<8:02:36, 31.75s/it]  9%|▉         | 90/1001 [51:16<7:38:06, 30.17s/it]  9%|▉         | 91/1001 [52:23<10:25:36, 41.25s/it]  9%|▉         | 92/1001 [52:51<9:22:49, 37.15s/it]   9%|▉         | 93/1001 [53:18<8:36:25, 34.12s/it]  9%|▉         | 94/1001 [53:43<7:55:01, 31.42s/it]  9%|▉         | 95/1001 [54:10<7:34:56, 30.13s/it] 10%|▉         | 96/1001 [55:17<10:19:21, 41.06s/it] 10%|▉         | 97/1001 [55:44<9:16:21, 36.93s/it]  10%|▉         | 98/1001 [56:10<8:28:03, 33.76s/it] 10%|▉         | 99/1001 [56:39<8:04:10, 32.21s/it] 10%|▉         | 100/1001 [57:07<7:44:10, 30.91s/it] 10%|█         | 101/1001 [58:11<10:16:14, 41.08s/it] 10%|█         | 102/1001 [58:37<9:06:14, 36.46s/it]  10%|█         | 103/1001 [59:04<8:23:23, 33.63s/it] 10%|█         | 104/1001 [59:31<7:53:42, 31.69s/it] 10%|█         | 105/1001 [59:59<7:36:29, 30.57s/it] 11%|█         | 106/1001 [1:01:01<9:53:14, 39.77s/it] 11%|█         | 107/1001 [1:01:27<8:51:52, 35.70s/it] 11%|█         | 108/1001 [1:01:55<8:16:23, 33.35s/it] 11%|█         | 109/1001 [1:02:23<7:53:57, 31.88s/it] 11%|█         | 110/1001 [1:02:50<7:32:37, 30.48s/it] 11%|█         | 111/1001 [1:03:52<9:50:58, 39.84s/it] 11%|█         | 112/1001 [1:04:19<8:52:44, 35.96s/it] 11%|█▏        | 113/1001 [1:04:47<8:15:21, 33.47s/it] 11%|█▏        | 114/1001 [1:05:14<7:46:11, 31.53s/it] 11%|█▏        | 115/1001 [1:05:41<7:25:34, 30.17s/it] 12%|█▏        | 116/1001 [1:06:45<9:54:45, 40.32s/it] 12%|█▏        | 117/1001 [1:07:12<8:58:41, 36.56s/it] 12%|█▏        | 118/1001 [1:07:39<8:16:36, 33.74s/it] 12%|█▏        | 119/1001 [1:08:06<7:46:14, 31.72s/it] 12%|█▏        | 120/1001 [1:08:30<7:11:48, 29.41s/it] 12%|█▏        | 121/1001 [1:09:36<9:49:47, 40.21s/it] 12%|█▏        | 122/1001 [1:10:03<8:49:35, 36.15s/it] 12%|█▏        | 123/1001 [1:10:30<8:10:03, 33.49s/it]
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  83  | Loss VAE: 6.9900 | Loss MSE: 4.7500  | lr :  9.833386808053504e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  84  | Loss VAE: 6.9178 | Loss MSE: 4.7363  | lr :  9.831420130691892e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  85  | Loss VAE: 6.9544 | Loss MSE: 4.7303  | lr :  9.829453846665755e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.59710990043976
+Epoch :  86  | Loss VAE: 7.0601 | Loss MSE: 4.7348  | lr :  9.827487955896421e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  87  | Loss VAE: 7.0188 | Loss MSE: 4.7182  | lr :  9.825522458305243e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  88  | Loss VAE: 6.9572 | Loss MSE: 4.7040  | lr :  9.823557353813583e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  89  | Loss VAE: 6.9620 | Loss MSE: 4.6948  | lr :  9.82159264234282e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  90  | Loss VAE: 7.0637 | Loss MSE: 4.7041  | lr :  9.819628323814352e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+170.01920184147332
+Epoch :  91  | Loss VAE: 7.0385 | Loss MSE: 4.6890  | lr :  9.817664398149589e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  92  | Loss VAE: 7.1170 | Loss MSE: 4.6920  | lr :  9.815700865269959e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  93  | Loss VAE: 6.9611 | Loss MSE: 4.6656  | lr :  9.813737725096906e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  94  | Loss VAE: 7.0900 | Loss MSE: 4.6760  | lr :  9.811774977551886e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  95  | Loss VAE: 7.0680 | Loss MSE: 4.6650  | lr :  9.809812622556376e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+189.7251704848615
+Epoch :  96  | Loss VAE: 7.0105 | Loss MSE: 4.6442  | lr :  9.807850660031865e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  97  | Loss VAE: 7.0327 | Loss MSE: 4.6409  | lr :  9.805889089899859e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  98  | Loss VAE: 7.0254 | Loss MSE: 4.6355  | lr :  9.80392791208188e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  99  | Loss VAE: 6.9580 | Loss MSE: 4.6177  | lr :  9.801967126499462e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  100  | Loss VAE: 7.0676 | Loss MSE: 4.6227  | lr :  9.800006733074163e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.0232500608152
+Epoch :  101  | Loss VAE: 7.0316 | Loss MSE: 4.6105  | lr :  9.798046731727549e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  102  | Loss VAE: 7.1285 | Loss MSE: 4.6212  | lr :  9.796087122381204e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  103  | Loss VAE: 7.1185 | Loss MSE: 4.6043  | lr :  9.794127904956727e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  104  | Loss VAE: 7.0729 | Loss MSE: 4.5968  | lr :  9.792169079375736e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  105  | Loss VAE: 7.0398 | Loss MSE: 4.5866  | lr :  9.790210645559861e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.33847661034764
+Epoch :  106  | Loss VAE: 7.1440 | Loss MSE: 4.5915  | lr :  9.78825260343075e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  107  | Loss VAE: 7.0874 | Loss MSE: 4.5778  | lr :  9.786294952910063e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  108  | Loss VAE: 7.1358 | Loss MSE: 4.5746  | lr :  9.784337693919481e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  109  | Loss VAE: 7.0983 | Loss MSE: 4.5619  | lr :  9.782380826380699e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  110  | Loss VAE: 7.1471 | Loss MSE: 4.5633  | lr :  9.780424350215422e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+169.55978951368138
+Epoch :  111  | Loss VAE: 7.0390 | Loss MSE: 4.5456  | lr :  9.77846826534538e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  112  | Loss VAE: 7.0486 | Loss MSE: 4.5362  | lr :  9.77651257169231e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  113  | Loss VAE: 7.1311 | Loss MSE: 4.5464  | lr :  9.774557269177972e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  114  | Loss VAE: 7.2823 | Loss MSE: 4.5604  | lr :  9.772602357724136e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  115  | Loss VAE: 7.1697 | Loss MSE: 4.5350  | lr :  9.770647837252592e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+176.62853110458707
+Epoch :  116  | Loss VAE: 7.1428 | Loss MSE: 4.5264  | lr :  9.768693707685142e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  117  | Loss VAE: 7.2745 | Loss MSE: 4.5336  | lr :  9.766739968943605e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  118  | Loss VAE: 7.0597 | Loss MSE: 4.5049  | lr :  9.764786620949817e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  119  | Loss VAE: 7.2074 | Loss MSE: 4.5170  | lr :  9.762833663625627e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  120  | Loss VAE: 7.1621 | Loss MSE: 4.5064  | lr :  9.760881096892902e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+170.6808318984643
+Epoch :  121  | Loss VAE: 7.2402 | Loss MSE: 4.5070  | lr :  9.758928920673524e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  122  | Loss VAE: 7.3026 | Loss MSE: 4.5085  | lr :  9.756977134889388e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  123  | Loss VAE: 7.2563 | Loss MSE: 4.4977  | lr :  9.755025739462411e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>) 12%|█▏        | 124/1001 [1:10:57<7:41:04, 31.54s/it] 12%|█▏        | 125/1001 [1:11:24<7:21:59, 30.27s/it] 13%|█▎        | 126/1001 [1:12:30<9:56:13, 40.88s/it] 13%|█▎        | 127/1001 [1:12:57<8:56:22, 36.82s/it] 13%|█▎        | 128/1001 [1:13:24<8:11:16, 33.76s/it] 13%|█▎        | 129/1001 [1:13:51<7:40:26, 31.68s/it] 13%|█▎        | 130/1001 [1:14:18<7:22:29, 30.48s/it] 13%|█▎        | 131/1001 [1:15:28<10:12:20, 42.23s/it] 13%|█▎        | 132/1001 [1:15:54<9:01:59, 37.42s/it]  13%|█▎        | 133/1001 [1:16:21<8:17:10, 34.37s/it] 13%|█▎        | 134/1001 [1:16:49<7:46:38, 32.29s/it] 13%|█▎        | 135/1001 [1:17:15<7:21:37, 30.60s/it] 14%|█▎        | 136/1001 [1:18:19<9:44:23, 40.54s/it] 14%|█▎        | 137/1001 [1:18:46<8:42:34, 36.29s/it] 14%|█▍        | 138/1001 [1:19:13<8:01:34, 33.48s/it] 14%|█▍        | 139/1001 [1:19:40<7:35:42, 31.72s/it] 14%|█▍        | 140/1001 [1:20:07<7:16:18, 30.40s/it] 14%|█▍        | 141/1001 [1:21:08<9:24:42, 39.40s/it] 14%|█▍        | 142/1001 [1:21:36<8:34:39, 35.95s/it] 14%|█▍        | 143/1001 [1:22:03<7:55:03, 33.22s/it] 14%|█▍        | 144/1001 [1:22:31<7:31:53, 31.64s/it] 14%|█▍        | 145/1001 [1:22:58<7:12:30, 30.32s/it] 15%|█▍        | 146/1001 [1:24:00<9:26:47, 39.78s/it] 15%|█▍        | 147/1001 [1:24:26<8:30:54, 35.89s/it] 15%|█▍        | 148/1001 [1:24:54<7:56:40, 33.53s/it] 15%|█▍        | 149/1001 [1:25:21<7:26:28, 31.44s/it] 15%|█▍        | 150/1001 [1:25:47<7:04:13, 29.91s/it] 15%|█▌        | 151/1001 [1:26:51<9:27:54, 40.09s/it] 15%|█▌        | 152/1001 [1:27:19<8:34:07, 36.33s/it] 15%|█▌        | 153/1001 [1:27:46<7:55:27, 33.64s/it] 15%|█▌        | 154/1001 [1:28:12<7:22:29, 31.35s/it] 15%|█▌        | 155/1001 [1:28:39<7:02:24, 29.96s/it] 16%|█▌        | 156/1001 [1:29:46<9:39:24, 41.14s/it] 16%|█▌        | 157/1001 [1:30:14<8:44:42, 37.30s/it] 16%|█▌        | 158/1001 [1:30:39<7:50:59, 33.52s/it] 16%|█▌        | 159/1001 [1:31:05<7:16:09, 31.08s/it] 16%|█▌        | 160/1001 [1:31:31<6:56:21, 29.70s/it] 16%|█▌        | 161/1001 [1:32:37<9:28:45, 40.63s/it] 16%|█▌        | 162/1001 [1:33:04<8:28:41, 36.38s/it] 16%|█▋        | 163/1001 [1:33:31<7:49:03, 33.58s/it] 16%|█▋        | 164/1001 [1:33:58<7:23:12, 31.77s/it] 16%|█▋        | 165/1001 [1:34:25<7:03:28, 30.39s/it]
+Epoch :  124  | Loss VAE: 7.3218 | Loss MSE: 4.5000  | lr :  9.75307473431452e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  125  | Loss VAE: 7.3409 | Loss MSE: 4.4978  | lr :  9.751124119367656e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+179.14037568665782
+Epoch :  126  | Loss VAE: 7.3813 | Loss MSE: 4.4937  | lr :  9.749173894543783e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  127  | Loss VAE: 7.2676 | Loss MSE: 4.4772  | lr :  9.747224059764874e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  128  | Loss VAE: 7.1769 | Loss MSE: 4.4554  | lr :  9.745274614952922e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  129  | Loss VAE: 7.2412 | Loss MSE: 4.4626  | lr :  9.743325560029931e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  130  | Loss VAE: 7.2337 | Loss MSE: 4.4586  | lr :  9.741376894917926e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+176.42615297215605
+Epoch :  131  | Loss VAE: 7.3427 | Loss MSE: 4.4635  | lr :  9.739428619538942e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  132  | Loss VAE: 7.3209 | Loss MSE: 4.4560  | lr :  9.737480733815035e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  133  | Loss VAE: 7.3524 | Loss MSE: 4.4526  | lr :  9.735533237668271e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  134  | Loss VAE: 7.3331 | Loss MSE: 4.4459  | lr :  9.733586131020739e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  135  | Loss VAE: 7.2740 | Loss MSE: 4.4329  | lr :  9.731639413794535e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+179.74154256700226
+Epoch :  136  | Loss VAE: 7.3848 | Loss MSE: 4.4400  | lr :  9.729693085911776e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  137  | Loss VAE: 7.4047 | Loss MSE: 4.4417  | lr :  9.727747147294594e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  138  | Loss VAE: 7.3188 | Loss MSE: 4.4262  | lr :  9.725801597865135e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  139  | Loss VAE: 7.4123 | Loss MSE: 4.4318  | lr :  9.723856437545562e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  140  | Loss VAE: 7.3056 | Loss MSE: 4.4129  | lr :  9.721911666258053e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+179.44417239693837
+Epoch :  141  | Loss VAE: 7.3464 | Loss MSE: 4.4132  | lr :  9.719967283924802e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  142  | Loss VAE: 7.4544 | Loss MSE: 4.4188  | lr :  9.718023290468016e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  143  | Loss VAE: 7.3797 | Loss MSE: 4.4067  | lr :  9.716079685809924e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  144  | Loss VAE: 7.3862 | Loss MSE: 4.3977  | lr :  9.714136469872762e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  145  | Loss VAE: 7.3558 | Loss MSE: 4.3929  | lr :  9.712193642578787e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.52473433739084
+Epoch :  146  | Loss VAE: 7.4853 | Loss MSE: 4.4050  | lr :  9.710251203850272e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  147  | Loss VAE: 7.4481 | Loss MSE: 4.3942  | lr :  9.708309153609503e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  148  | Loss VAE: 7.3969 | Loss MSE: 4.3861  | lr :  9.706367491778781e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  149  | Loss VAE: 7.4765 | Loss MSE: 4.3866  | lr :  9.704426218280425e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  150  | Loss VAE: 7.5676 | Loss MSE: 4.3949  | lr :  9.70248533303677e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.01969371833002
+Epoch :  151  | Loss VAE: 7.3436 | Loss MSE: 4.3658  | lr :  9.700544835970162e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  152  | Loss VAE: 7.5859 | Loss MSE: 4.3854  | lr :  9.698604727002968e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  153  | Loss VAE: 7.5343 | Loss MSE: 4.3778  | lr :  9.696665006057569e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  154  | Loss VAE: 7.5072 | Loss MSE: 4.3652  | lr :  9.694725673056356e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  155  | Loss VAE: 7.5109 | Loss MSE: 4.3663  | lr :  9.692786727921745e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+191.81251464633408
+Epoch :  156  | Loss VAE: 7.4694 | Loss MSE: 4.3562  | lr :  9.690848170576161e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  157  | Loss VAE: 7.6816 | Loss MSE: 4.3720  | lr :  9.688910000942046e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  158  | Loss VAE: 7.7023 | Loss MSE: 4.3721  | lr :  9.686972218941858e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  159  | Loss VAE: 7.6101 | Loss MSE: 4.3575  | lr :  9.68503482449807e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  160  | Loss VAE: 7.5565 | Loss MSE: 4.3478  | lr :  9.683097817533172e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.70618116935927
+Epoch :  161  | Loss VAE: 7.6332 | Loss MSE: 4.3491  | lr :  9.681161197969663e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  162  | Loss VAE: 7.5994 | Loss MSE: 4.3464  | lr :  9.679224965730071e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  163  | Loss VAE: 7.6751 | Loss MSE: 4.3453  | lr :  9.677289120736924e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  164  | Loss VAE: 7.6573 | Loss MSE: 4.3406  | lr :  9.675353662912777e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  17%|█▋        | 166/1001 [1:35:32<9:33:02, 41.18s/it] 17%|█▋        | 167/1001 [1:35:57<8:26:00, 36.40s/it] 17%|█▋        | 168/1001 [1:36:24<7:45:15, 33.51s/it] 17%|█▋        | 169/1001 [1:36:51<7:16:49, 31.50s/it] 17%|█▋        | 170/1001 [1:37:18<6:58:24, 30.21s/it] 17%|█▋        | 171/1001 [1:38:18<9:03:50, 39.31s/it] 17%|█▋        | 172/1001 [1:38:46<8:14:03, 35.76s/it] 17%|█▋        | 173/1001 [1:39:13<7:40:00, 33.33s/it] 17%|█▋        | 174/1001 [1:39:42<7:17:45, 31.76s/it] 17%|█▋        | 175/1001 [1:40:09<7:01:07, 30.59s/it] 18%|█▊        | 176/1001 [1:41:09<9:02:07, 39.43s/it] 18%|█▊        | 177/1001 [1:41:37<8:13:02, 35.90s/it] 18%|█▊        | 178/1001 [1:42:05<7:39:22, 33.49s/it] 18%|█▊        | 179/1001 [1:42:32<7:10:25, 31.42s/it] 18%|█▊        | 180/1001 [1:42:58<6:48:07, 29.83s/it] 18%|█▊        | 181/1001 [1:44:02<9:10:14, 40.26s/it] 18%|█▊        | 182/1001 [1:44:30<8:19:06, 36.56s/it] 18%|█▊        | 183/1001 [1:44:58<7:44:29, 34.07s/it] 18%|█▊        | 184/1001 [1:45:25<7:11:38, 31.70s/it] 18%|█▊        | 185/1001 [1:45:52<6:52:32, 30.33s/it] 19%|█▊        | 186/1001 [1:46:59<9:24:08, 41.53s/it] 19%|█▊        | 187/1001 [1:47:27<8:24:31, 37.19s/it] 19%|█▉        | 188/1001 [1:47:53<7:40:00, 33.95s/it] 19%|█▉        | 189/1001 [1:48:18<7:04:50, 31.39s/it] 19%|█▉        | 190/1001 [1:48:46<6:49:45, 30.32s/it] 19%|█▉        | 191/1001 [1:49:55<9:24:53, 41.84s/it] 19%|█▉        | 192/1001 [1:50:22<8:22:52, 37.30s/it] 19%|█▉        | 193/1001 [1:50:47<7:34:31, 33.75s/it] 19%|█▉        | 194/1001 [1:51:14<7:07:17, 31.77s/it] 19%|█▉        | 195/1001 [1:51:42<6:50:04, 30.53s/it] 20%|█▉        | 196/1001 [1:52:49<9:16:00, 41.44s/it] 20%|█▉        | 197/1001 [1:53:15<8:14:33, 36.91s/it] 20%|█▉        | 198/1001 [1:53:42<7:35:02, 34.00s/it] 20%|█▉        | 199/1001 [1:54:10<7:08:32, 32.06s/it] 20%|█▉        | 200/1001 [1:54:37<6:49:24, 30.67s/it] 20%|██        | 201/1001 [1:55:39<8:54:24, 40.08s/it] 20%|██        | 202/1001 [1:56:06<7:59:42, 36.02s/it] 20%|██        | 203/1001 [1:56:34<7:26:33, 33.58s/it] 20%|██        | 204/1001 [1:57:02<7:03:25, 31.88s/it] 20%|██        | 205/1001 [1:57:29<6:43:45, 30.43s/it] 21%|██        | 206/1001 [1:58:29<8:43:25, 39.50s/it] 165  | Loss VAE: 7.6627 | Loss MSE: 4.3358  | lr :  9.673418592180195e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+167.7642580380488
+Epoch :  166  | Loss VAE: 7.4747 | Loss MSE: 4.3143  | lr :  9.671483908461759e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  167  | Loss VAE: 7.6545 | Loss MSE: 4.3287  | lr :  9.669549611680067e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  168  | Loss VAE: 7.6420 | Loss MSE: 4.3224  | lr :  9.667615701757732e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  169  | Loss VAE: 7.8497 | Loss MSE: 4.3388  | lr :  9.66568217861738e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  170  | Loss VAE: 7.8110 | Loss MSE: 4.3305  | lr :  9.663749042181656e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+175.36500686911296
+Epoch :  171  | Loss VAE: 7.6889 | Loss MSE: 4.3161  | lr :  9.66181629237322e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  172  | Loss VAE: 7.7224 | Loss MSE: 4.3149  | lr :  9.659883929114746e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  173  | Loss VAE: 7.8643 | Loss MSE: 4.3307  | lr :  9.657951952328923e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  174  | Loss VAE: 7.7768 | Loss MSE: 4.3101  | lr :  9.656020361938459e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  175  | Loss VAE: 7.6795 | Loss MSE: 4.2990  | lr :  9.65408915786607e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+176.3534986808505
+Epoch :  176  | Loss VAE: 7.6849 | Loss MSE: 4.2980  | lr :  9.652158340034497e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  177  | Loss VAE: 7.7827 | Loss MSE: 4.3009  | lr :  9.65022790836649e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  178  | Loss VAE: 7.6317 | Loss MSE: 4.2841  | lr :  9.648297862784818e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  179  | Loss VAE: 7.8321 | Loss MSE: 4.2960  | lr :  9.64636820321226e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  180  | Loss VAE: 7.8420 | Loss MSE: 4.2941  | lr :  9.644438929571619e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.97721029621033
+Epoch :  181  | Loss VAE: 7.8896 | Loss MSE: 4.2921  | lr :  9.642510041785705e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  182  | Loss VAE: 7.9273 | Loss MSE: 4.2970  | lr :  9.640581539777348e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  183  | Loss VAE: 7.8690 | Loss MSE: 4.2890  | lr :  9.638653423469393e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  184  | Loss VAE: 7.7393 | Loss MSE: 4.2724  | lr :  9.636725692784698e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  185  | Loss VAE: 8.0731 | Loss MSE: 4.2989  | lr :  9.634798347646142e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+172.81976607963338
+Epoch :  186  | Loss VAE: 7.8210 | Loss MSE: 4.2745  | lr :  9.632871387976614e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  187  | Loss VAE: 7.8692 | Loss MSE: 4.2751  | lr :  9.630944813699018e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  188  | Loss VAE: 7.8199 | Loss MSE: 4.2633  | lr :  9.629018624736278e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  189  | Loss VAE: 7.8124 | Loss MSE: 4.2565  | lr :  9.627092821011332e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  190  | Loss VAE: 7.9778 | Loss MSE: 4.2715  | lr :  9.62516740244713e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.03117792835337
+Epoch :  191  | Loss VAE: 7.8877 | Loss MSE: 4.2582  | lr :  9.62324236896664e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  192  | Loss VAE: 7.9851 | Loss MSE: 4.2653  | lr :  9.621317720492847e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  193  | Loss VAE: 8.1148 | Loss MSE: 4.2734  | lr :  9.619393456948749e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  194  | Loss VAE: 7.8039 | Loss MSE: 4.2421  | lr :  9.617469578257358e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  195  | Loss VAE: 8.0284 | Loss MSE: 4.2611  | lr :  9.615546084341707e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.8905473218389
+Epoch :  196  | Loss VAE: 8.0475 | Loss MSE: 4.2551  | lr :  9.61362297512484e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  197  | Loss VAE: 8.1869 | Loss MSE: 4.2607  | lr :  9.611700250529815e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  198  | Loss VAE: 7.7739 | Loss MSE: 4.2235  | lr :  9.609777910479709e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  199  | Loss VAE: 8.0846 | Loss MSE: 4.2500  | lr :  9.607855954897613e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  200  | Loss VAE: 7.8887 | Loss MSE: 4.2290  | lr :  9.605934383706635e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.32190369985653
+Epoch :  201  | Loss VAE: 8.2226 | Loss MSE: 4.2516  | lr :  9.604013196829893e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  202  | Loss VAE: 8.0091 | Loss MSE: 4.2327  | lr :  9.602092394190528e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  203  | Loss VAE: 8.1170 | Loss MSE: 4.2414  | lr :  9.60017197571169e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  204  | Loss VAE: 8.0191 | Loss MSE: 4.2262  | lr :  9.598251941316548e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  205  | Loss VAE: 8.0341 | Loss MSE: 4.2229  | lr :  9.596332290928284e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+171.86135594756814
+Epoch :  21%|██        | 207/1001 [1:58:56<7:52:45, 35.73s/it] 21%|██        | 208/1001 [1:59:24<7:20:40, 33.34s/it] 21%|██        | 209/1001 [1:59:52<6:57:47, 31.65s/it] 21%|██        | 210/1001 [2:00:18<6:37:32, 30.15s/it] 21%|██        | 211/1001 [2:01:25<9:01:53, 41.16s/it] 21%|██        | 212/1001 [2:01:52<8:04:06, 36.81s/it] 21%|██▏       | 213/1001 [2:02:20<7:27:43, 34.09s/it] 21%|██▏       | 214/1001 [2:02:47<7:00:59, 32.10s/it] 21%|██▏       | 215/1001 [2:03:13<6:37:12, 30.32s/it] 22%|██▏       | 216/1001 [2:04:22<9:06:52, 41.80s/it] 22%|██▏       | 217/1001 [2:04:50<8:11:01, 37.58s/it] 22%|██▏       | 218/1001 [2:05:17<7:30:51, 34.55s/it] 22%|██▏       | 219/1001 [2:05:44<6:59:33, 32.19s/it] 22%|██▏       | 220/1001 [2:06:11<6:41:09, 30.82s/it] 22%|██▏       | 221/1001 [2:07:18<8:59:56, 41.53s/it] 22%|██▏       | 222/1001 [2:07:46<8:06:19, 37.46s/it] 22%|██▏       | 223/1001 [2:08:12<7:19:54, 33.93s/it] 22%|██▏       | 224/1001 [2:08:39<6:53:24, 31.92s/it] 22%|██▏       | 225/1001 [2:09:07<6:37:50, 30.76s/it] 23%|██▎       | 226/1001 [2:10:13<8:55:21, 41.45s/it] 23%|██▎       | 227/1001 [2:10:38<7:52:02, 36.59s/it] 23%|██▎       | 228/1001 [2:11:06<7:16:40, 33.89s/it] 23%|██▎       | 229/1001 [2:11:34<6:51:41, 32.00s/it] 23%|██▎       | 230/1001 [2:12:02<6:35:43, 30.80s/it] 23%|██▎       | 231/1001 [2:13:05<8:41:13, 40.62s/it] 23%|██▎       | 232/1001 [2:13:32<7:47:04, 36.44s/it] 23%|██▎       | 233/1001 [2:13:58<7:08:14, 33.46s/it] 23%|██▎       | 234/1001 [2:14:26<6:44:25, 31.64s/it] 23%|██▎       | 235/1001 [2:14:53<6:28:06, 30.40s/it] 24%|██▎       | 236/1001 [2:15:54<8:24:13, 39.55s/it] 24%|██▎       | 237/1001 [2:16:21<7:35:35, 35.78s/it] 24%|██▍       | 238/1001 [2:16:48<7:00:23, 33.06s/it] 24%|██▍       | 239/1001 [2:17:15<6:38:30, 31.38s/it] 24%|██▍       | 240/1001 [2:17:42<6:21:13, 30.06s/it] 24%|██▍       | 241/1001 [2:18:49<8:38:38, 40.95s/it] 24%|██▍       | 242/1001 [2:19:16<7:46:33, 36.88s/it] 24%|██▍       | 243/1001 [2:19:44<7:11:43, 34.17s/it] 24%|██▍       | 244/1001 [2:20:12<6:47:29, 32.30s/it] 24%|██▍       | 245/1001 [2:20:37<6:19:57, 30.16s/it] 25%|██▍       | 246/1001 [2:21:43<8:35:50, 40.99s/it] 25%|██▍       | 247/1001 [2:22:10<7:42:36, 36.81s/it] 206  | Loss VAE: 7.9996 | Loss MSE: 4.2173  | lr :  9.594413024470099e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  207  | Loss VAE: 8.0455 | Loss MSE: 4.2208  | lr :  9.592494141865204e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  208  | Loss VAE: 8.2198 | Loss MSE: 4.2299  | lr :  9.590575643036832e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  209  | Loss VAE: 8.1397 | Loss MSE: 4.2197  | lr :  9.588657527908225e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  210  | Loss VAE: 8.0623 | Loss MSE: 4.2099  | lr :  9.586739796402643e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+183.7591145722651
+Epoch :  211  | Loss VAE: 8.2126 | Loss MSE: 4.2206  | lr :  9.584822448443363e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  212  | Loss VAE: 8.1897 | Loss MSE: 4.2157  | lr :  9.582905483953674e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  213  | Loss VAE: 8.3388 | Loss MSE: 4.2211  | lr :  9.580988902856884e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  214  | Loss VAE: 8.1669 | Loss MSE: 4.2062  | lr :  9.579072705076313e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  215  | Loss VAE: 8.2154 | Loss MSE: 4.2121  | lr :  9.577156890535298e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.03264752040405
+Epoch :  216  | Loss VAE: 8.1737 | Loss MSE: 4.2012  | lr :  9.57524145915719e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  217  | Loss VAE: 8.3504 | Loss MSE: 4.2150  | lr :  9.57332641086536e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  218  | Loss VAE: 8.3578 | Loss MSE: 4.2076  | lr :  9.571411745583187e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  219  | Loss VAE: 8.2345 | Loss MSE: 4.1988  | lr :  9.56949746323407e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  220  | Loss VAE: 8.2976 | Loss MSE: 4.1987  | lr :  9.567583563741424e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.88357009758275
+Epoch :  221  | Loss VAE: 8.1592 | Loss MSE: 4.1833  | lr :  9.565670047028675e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  222  | Loss VAE: 8.2527 | Loss MSE: 4.1891  | lr :  9.56375691301927e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  223  | Loss VAE: 8.5345 | Loss MSE: 4.2119  | lr :  9.561844161636666e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  224  | Loss VAE: 8.3418 | Loss MSE: 4.1898  | lr :  9.559931792804339e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  225  | Loss VAE: 8.2128 | Loss MSE: 4.1787  | lr :  9.558019806445778e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+175.25122521245953
+Epoch :  226  | Loss VAE: 8.2444 | Loss MSE: 4.1780  | lr :  9.55610820248449e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  227  | Loss VAE: 8.3427 | Loss MSE: 4.1837  | lr :  9.554196980843993e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  228  | Loss VAE: 8.3994 | Loss MSE: 4.1827  | lr :  9.552286141447825e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  229  | Loss VAE: 8.2162 | Loss MSE: 4.1689  | lr :  9.550375684219534e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  230  | Loss VAE: 8.4472 | Loss MSE: 4.1813  | lr :  9.548465609082691e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.34792628305217
+Epoch :  231  | Loss VAE: 8.3441 | Loss MSE: 4.1707  | lr :  9.546555915960875e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  232  | Loss VAE: 8.4472 | Loss MSE: 4.1748  | lr :  9.544646604777683e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  233  | Loss VAE: 8.5990 | Loss MSE: 4.1857  | lr :  9.542737675456727e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  234  | Loss VAE: 8.2207 | Loss MSE: 4.1550  | lr :  9.540829127921637e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  235  | Loss VAE: 8.5524 | Loss MSE: 4.1716  | lr :  9.538920962096053e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+177.7042998984616
+Epoch :  236  | Loss VAE: 8.4297 | Loss MSE: 4.1633  | lr :  9.537013177903634e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  237  | Loss VAE: 8.5570 | Loss MSE: 4.1685  | lr :  9.535105775268053e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  238  | Loss VAE: 8.3882 | Loss MSE: 4.1526  | lr :  9.533198754112999e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  239  | Loss VAE: 8.4202 | Loss MSE: 4.1527  | lr :  9.531292114362177e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  240  | Loss VAE: 8.5561 | Loss MSE: 4.1620  | lr :  9.529385855939305e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+175.91139471424782
+Epoch :  241  | Loss VAE: 8.5724 | Loss MSE: 4.1617  | lr :  9.527479978768117e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  242  | Loss VAE: 8.6016 | Loss MSE: 4.1574  | lr :  9.525574482772364e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  243  | Loss VAE: 8.4108 | Loss MSE: 4.1427  | lr :  9.523669367875809e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  244  | Loss VAE: 8.5082 | Loss MSE: 4.1428  | lr :  9.521764634002235e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  245  | Loss VAE: 8.8405 | Loss MSE: 4.1707  | lr :  9.519860281075435e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+178.67936731381877
+Epoch :  246  | Loss VAE: 8.4223 | Loss MSE: 4.1370  | lr :  9.51795630901922e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  247  | Loss VAE: 8.6842 | Loss MSE: 4.1517 25%|██▍       | 248/1001 [2:22:38<7:06:09, 33.96s/it] 25%|██▍       | 249/1001 [2:23:04<6:37:45, 31.74s/it] 25%|██▍       | 250/1001 [2:23:31<6:19:17, 30.30s/it] 25%|██▌       | 251/1001 [2:24:37<8:32:31, 41.00s/it] 25%|██▌       | 252/1001 [2:25:04<7:40:21, 36.88s/it] 25%|██▌       | 253/1001 [2:25:31<7:01:06, 33.78s/it] 25%|██▌       | 254/1001 [2:25:57<6:31:23, 31.44s/it] 25%|██▌       | 255/1001 [2:26:24<6:16:28, 30.28s/it] 26%|██▌       | 256/1001 [2:27:30<8:28:47, 40.98s/it] 26%|██▌       | 257/1001 [2:27:56<7:31:30, 36.41s/it] 26%|██▌       | 258/1001 [2:28:23<6:56:56, 33.67s/it] 26%|██▌       | 259/1001 [2:28:51<6:32:29, 31.74s/it] 26%|██▌       | 260/1001 [2:29:18<6:17:14, 30.55s/it] 26%|██▌       | 261/1001 [2:30:22<8:17:30, 40.34s/it] 26%|██▌       | 262/1001 [2:30:48<7:25:35, 36.18s/it] 26%|██▋       | 263/1001 [2:31:15<6:52:09, 33.51s/it] 26%|██▋       | 264/1001 [2:31:44<6:32:03, 31.92s/it] 26%|██▋       | 265/1001 [2:32:10<6:12:05, 30.33s/it] 27%|██▋       | 266/1001 [2:33:11<8:02:14, 39.37s/it] 27%|██▋       | 267/1001 [2:33:37<7:14:42, 35.53s/it] 27%|██▋       | 268/1001 [2:34:04<6:43:41, 33.04s/it] 27%|██▋       | 269/1001 [2:34:32<6:21:41, 31.29s/it] 27%|██▋       | 270/1001 [2:34:59<6:07:24, 30.16s/it] 27%|██▋       | 271/1001 [2:36:01<8:01:52, 39.61s/it] 27%|██▋       | 272/1001 [2:36:28<7:17:20, 36.00s/it] 27%|██▋       | 273/1001 [2:36:55<6:43:56, 33.29s/it] 27%|██▋       | 274/1001 [2:37:23<6:22:28, 31.57s/it] 27%|██▋       | 275/1001 [2:37:49<6:01:26, 29.87s/it] 28%|██▊       | 276/1001 [2:38:55<8:13:45, 40.86s/it] 28%|██▊       | 277/1001 [2:39:23<7:25:03, 36.88s/it] 28%|██▊       | 278/1001 [2:39:50<6:48:45, 33.92s/it] 28%|██▊       | 279/1001 [2:40:16<6:19:06, 31.50s/it] 28%|██▊       | 280/1001 [2:40:42<6:00:58, 30.04s/it] 28%|██▊       | 281/1001 [2:41:51<8:18:06, 41.51s/it] 28%|██▊       | 282/1001 [2:42:18<7:27:31, 37.35s/it] 28%|██▊       | 283/1001 [2:42:45<6:49:23, 34.21s/it] 28%|██▊       | 284/1001 [2:43:10<6:16:24, 31.50s/it] 28%|██▊       | 285/1001 [2:43:38<6:00:58, 30.25s/it] 29%|██▊       | 286/1001 [2:44:44<8:08:03, 40.96s/it] 29%|██▊       | 287/1001 [2:45:10<7:15:25, 36.59s/it] 29%|██▉       | 288/1001 [2:45:36<6:37:01, 33.41s/it]  | lr :  9.516052717757417e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  248  | Loss VAE: 8.4707 | Loss MSE: 4.1323  | lr :  9.514149507213866e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  249  | Loss VAE: 8.5659 | Loss MSE: 4.1363  | lr :  9.512246677312422e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  250  | Loss VAE: 8.4947 | Loss MSE: 4.1295  | lr :  9.51034422797696e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+175.18248828263438
+Epoch :  251  | Loss VAE: 8.9260 | Loss MSE: 4.1577  | lr :  9.508442159131364e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  252  | Loss VAE: 8.5104 | Loss MSE: 4.1261  | lr :  9.506540470699539e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  253  | Loss VAE: 8.7494 | Loss MSE: 4.1411  | lr :  9.504639162605398e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  254  | Loss VAE: 8.5408 | Loss MSE: 4.1185  | lr :  9.502738234772878e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  255  | Loss VAE: 8.5639 | Loss MSE: 4.1226  | lr :  9.500837687125924e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+191.66675871369034
+Epoch :  256  | Loss VAE: 8.6057 | Loss MSE: 4.1228  | lr :  9.498937519588499e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  257  | Loss VAE: 8.8517 | Loss MSE: 4.1366  | lr :  9.497037732084581e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  258  | Loss VAE: 8.5792 | Loss MSE: 4.1125  | lr :  9.495138324538164e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  259  | Loss VAE: 8.7517 | Loss MSE: 4.1235  | lr :  9.493239296873258e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  260  | Loss VAE: 8.5518 | Loss MSE: 4.1039  | lr :  9.491340649013882e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+185.47093547034405
+Epoch :  261  | Loss VAE: 8.9613 | Loss MSE: 4.1318  | lr :  9.489442380884081e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  262  | Loss VAE: 8.8260 | Loss MSE: 4.1218  | lr :  9.487544492407904e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  263  | Loss VAE: 8.5684 | Loss MSE: 4.1004  | lr :  9.485646983509423e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  264  | Loss VAE: 8.8245 | Loss MSE: 4.1168  | lr :  9.48374985411272e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  265  | Loss VAE: 8.9137 | Loss MSE: 4.1214  | lr :  9.481853104141898e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+181.52049536421657
+Epoch :  266  | Loss VAE: 8.7318 | Loss MSE: 4.1042  | lr :  9.479956733521071e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  267  | Loss VAE: 8.6869 | Loss MSE: 4.0987  | lr :  9.478060742174367e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  268  | Loss VAE: 8.9306 | Loss MSE: 4.1167  | lr :  9.476165130025931e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  269  | Loss VAE: 8.9320 | Loss MSE: 4.1077  | lr :  9.474269896999927e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  270  | Loss VAE: 8.7868 | Loss MSE: 4.0995  | lr :  9.472375043020526e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+182.50032908758806
+Epoch :  271  | Loss VAE: 8.7625 | Loss MSE: 4.0932  | lr :  9.470480568011923e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  272  | Loss VAE: 8.9470 | Loss MSE: 4.1059  | lr :  9.46858647189832e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  273  | Loss VAE: 8.9301 | Loss MSE: 4.1050  | lr :  9.466692754603941e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  274  | Loss VAE: 8.9258 | Loss MSE: 4.0995  | lr :  9.46479941605302e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  275  | Loss VAE: 9.0250 | Loss MSE: 4.1016  | lr :  9.46290645616981e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+184.77360284876357
+Epoch :  276  | Loss VAE: 9.0301 | Loss MSE: 4.0990  | lr :  9.461013874878575e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  277  | Loss VAE: 9.0922 | Loss MSE: 4.1066  | lr :  9.459121672103602e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  278  | Loss VAE: 8.8007 | Loss MSE: 4.0782  | lr :  9.45722984776918e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  279  | Loss VAE: 9.0783 | Loss MSE: 4.0985  | lr :  9.455338401799628e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  280  | Loss VAE: 8.9591 | Loss MSE: 4.0831  | lr :  9.453447334119266e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+183.46272035883237
+Epoch :  281  | Loss VAE: 8.9647 | Loss MSE: 4.0804  | lr :  9.451556644652442e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  282  | Loss VAE: 9.0258 | Loss MSE: 4.0835  | lr :  9.449666333323513e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  283  | Loss VAE: 9.1898 | Loss MSE: 4.0967  | lr :  9.447776400056848e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  284  | Loss VAE: 9.0061 | Loss MSE: 4.0808  | lr :  9.445886844776838e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  285  | Loss VAE: 9.0944 | Loss MSE: 4.0845  | lr :  9.443997667407882e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+175.06478475328723
+Epoch :  286  | Loss VAE: 8.9503 | Loss MSE: 4.0686  | lr :  9.4421088678744e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  287  | Loss VAE: 9.1552 | Loss MSE: 4.0813  | lr :  9.440220446100826e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  288  | Loss VAE: 9.2219 | Loss MSE: 4.0825  | lr :  9.438332402011606e-05 29%|██▉       | 289/1001 [2:46:03<6:15:10, 31.62s/it] 29%|██▉       | 290/1001 [2:46:31<5:58:24, 30.25s/it] 29%|██▉       | 291/1001 [2:47:38<8:10:17, 41.43s/it] 29%|██▉       | 292/1001 [2:48:03<7:10:35, 36.44s/it] 29%|██▉       | 293/1001 [2:48:30<6:38:34, 33.78s/it] 29%|██▉       | 294/1001 [2:48:58<6:14:45, 31.80s/it] 29%|██▉       | 295/1001 [2:49:25<5:58:57, 30.51s/it] 30%|██▉       | 296/1001 [2:50:25<7:42:52, 39.39s/it] 30%|██▉       | 297/1001 [2:50:52<6:58:23, 35.66s/it] 30%|██▉       | 298/1001 [2:51:19<6:28:03, 33.12s/it] 30%|██▉       | 299/1001 [2:51:47<6:07:23, 31.40s/it] 30%|██▉       | 300/1001 [2:52:14<5:54:01, 30.30s/it] 30%|███       | 301/1001 [2:53:16<7:43:33, 39.73s/it] 30%|███       | 302/1001 [2:53:43<6:58:04, 35.89s/it] 30%|███       | 303/1001 [2:54:10<6:27:16, 33.29s/it] 30%|███       | 304/1001 [2:54:38<6:06:03, 31.51s/it] 30%|███       | 305/1001 [2:55:05<5:50:42, 30.23s/it] 31%|███       | 306/1001 [2:56:07<7:40:11, 39.73s/it] 31%|███       | 307/1001 [2:56:35<6:57:50, 36.12s/it] 31%|███       | 308/1001 [2:57:02<6:26:22, 33.45s/it] 31%|███       | 309/1001 [2:57:29<6:03:58, 31.56s/it] 31%|███       | 310/1001 [2:57:54<5:41:16, 29.63s/it] 31%|███       | 311/1001 [2:59:01<7:51:02, 40.96s/it] 31%|███       | 312/1001 [2:59:29<7:03:39, 36.89s/it] 31%|███▏      | 313/1001 [2:59:57<6:31:47, 34.17s/it] 31%|███▏      | 314/1001 [3:00:22<6:01:34, 31.58s/it] 31%|███▏      | 315/1001 [3:00:48<5:42:24, 29.95s/it] 32%|███▏      | 316/1001 [3:01:56<7:51:19, 41.28s/it] 32%|███▏      | 317/1001 [3:02:24<7:05:13, 37.30s/it] 32%|███▏      | 318/1001 [3:02:49<6:23:47, 33.72s/it] 32%|███▏      | 319/1001 [3:03:15<5:56:37, 31.37s/it] 32%|███▏      | 320/1001 [3:03:43<5:44:03, 30.31s/it] 32%|███▏      | 321/1001 [3:04:49<7:44:52, 41.02s/it] 32%|███▏      | 322/1001 [3:05:16<6:57:23, 36.88s/it] 32%|███▏      | 323/1001 [3:05:43<6:23:03, 33.90s/it] 32%|███▏      | 324/1001 [3:06:11<6:00:23, 31.94s/it] 32%|███▏      | 325/1001 [3:06:37<5:41:47, 30.34s/it] 33%|███▎      | 326/1001 [3:07:40<7:29:39, 39.97s/it] 33%|███▎      | 327/1001 [3:08:07<6:44:51, 36.04s/it] 33%|███▎      | 328/1001 [3:08:34<6:16:01, 33.52s/it] 33%|███▎      | 329/1001 [3:09:02<5:56:45, 31.85s/it]
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  289  | Loss VAE: 9.0024 | Loss MSE: 4.0697  | lr :  9.436444735531203e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  290  | Loss VAE: 8.9872 | Loss MSE: 4.0678  | lr :  9.434557446584098e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+186.00517575986424
+Epoch :  291  | Loss VAE: 9.4350 | Loss MSE: 4.0954  | lr :  9.432670535094782e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  292  | Loss VAE: 9.2430 | Loss MSE: 4.0758  | lr :  9.430784000987762e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  293  | Loss VAE: 8.9999 | Loss MSE: 4.0590  | lr :  9.428897844187565e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  294  | Loss VAE: 9.1737 | Loss MSE: 4.0647  | lr :  9.427012064618727e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  295  | Loss VAE: 9.0358 | Loss MSE: 4.0543  | lr :  9.425126662205804e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.13113943413614
+Epoch :  296  | Loss VAE: 9.4855 | Loss MSE: 4.0866  | lr :  9.423241636873363e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  297  | Loss VAE: 9.2994 | Loss MSE: 4.0694  | lr :  9.42135698854599e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  298  | Loss VAE: 9.1407 | Loss MSE: 4.0570  | lr :  9.41947271714828e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  299  | Loss VAE: 9.3088 | Loss MSE: 4.0629  | lr :  9.41758882260485e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  300  | Loss VAE: 9.3509 | Loss MSE: 4.0639  | lr :  9.41570530484033e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+173.32080445385208
+Epoch :  301  | Loss VAE: 9.2863 | Loss MSE: 4.0587  | lr :  9.413822163779362e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  302  | Loss VAE: 9.0982 | Loss MSE: 4.0441  | lr :  9.411939399346606e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  303  | Loss VAE: 9.2113 | Loss MSE: 4.0485  | lr :  9.410057011466737e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  304  | Loss VAE: 9.1972 | Loss MSE: 4.0490  | lr :  9.408175000064444e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  305  | Loss VAE: 9.3463 | Loss MSE: 4.0555  | lr :  9.406293365064431e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+184.74965367810242
+Epoch :  306  | Loss VAE: 9.3555 | Loss MSE: 4.0538  | lr :  9.404412106391419e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  307  | Loss VAE: 9.1174 | Loss MSE: 4.0331  | lr :  9.40253122397014e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  308  | Loss VAE: 9.6692 | Loss MSE: 4.0692  | lr :  9.400650717725346e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  309  | Loss VAE: 9.2608 | Loss MSE: 4.0425  | lr :  9.398770587581802e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  310  | Loss VAE: 9.3292 | Loss MSE: 4.0401  | lr :  9.396890833464286e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+179.29175839654968
+Epoch :  311  | Loss VAE: 9.3634 | Loss MSE: 4.0464  | lr :  9.395011455297593e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  312  | Loss VAE: 9.2188 | Loss MSE: 4.0324  | lr :  9.393132453006533e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  313  | Loss VAE: 9.4281 | Loss MSE: 4.0434  | lr :  9.391253826515934e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  314  | Loss VAE: 9.2948 | Loss MSE: 4.0322  | lr :  9.389375575750629e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  315  | Loss VAE: 9.3756 | Loss MSE: 4.0336  | lr :  9.387497700635481e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+187.64358125519146
+Epoch :  316  | Loss VAE: 9.6325 | Loss MSE: 4.0492  | lr :  9.385620201095353e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  317  | Loss VAE: 9.6406 | Loss MSE: 4.0486  | lr :  9.383743077055134e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  318  | Loss VAE: 9.5969 | Loss MSE: 4.0426  | lr :  9.381866328439723e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  319  | Loss VAE: 9.5206 | Loss MSE: 4.0341  | lr :  9.379989955174036e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  320  | Loss VAE: 9.3246 | Loss MSE: 4.0211  | lr :  9.378113957183001e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+186.296836256118
+Epoch :  321  | Loss VAE: 9.5042 | Loss MSE: 4.0293  | lr :  9.376238334391565e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  322  | Loss VAE: 9.6504 | Loss MSE: 4.0324  | lr :  9.374363086724687e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  323  | Loss VAE: 9.3489 | Loss MSE: 4.0165  | lr :  9.372488214107342e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  324  | Loss VAE: 9.9495 | Loss MSE: 4.0522  | lr :  9.37061371646452e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  325  | Loss VAE: 9.5658 | Loss MSE: 4.0263  | lr :  9.368739593721227e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+186.10265426859297
+Epoch :  326  | Loss VAE: 9.6370 | Loss MSE: 4.0266  | lr :  9.366865845802484e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  327  | Loss VAE: 9.7356 | Loss MSE: 4.0291  | lr :  9.364992472633324e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  328  | Loss VAE: 9.5954 | Loss MSE: 4.0190  | lr :  9.363119474138797e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  329  | Loss VAE: 9.5837 | Loss MSE: 4.0183  | lr :  9.36124685024397e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>) 33%|███▎      | 330/1001 [3:09:29<5:38:24, 30.26s/it] 33%|███▎      | 331/1001 [3:10:30<7:21:00, 39.49s/it] 33%|███▎      | 332/1001 [3:10:58<6:40:46, 35.94s/it] 33%|███▎      | 333/1001 [3:11:25<6:12:25, 33.45s/it] 33%|███▎      | 334/1001 [3:11:53<5:54:43, 31.91s/it] 33%|███▎      | 335/1001 [3:12:20<5:36:49, 30.34s/it] 34%|███▎      | 336/1001 [3:13:24<7:28:07, 40.43s/it] 34%|███▎      | 337/1001 [3:13:52<6:45:28, 36.64s/it] 34%|███▍      | 338/1001 [3:14:19<6:14:29, 33.89s/it] 34%|███▍      | 339/1001 [3:14:46<5:51:19, 31.84s/it] 34%|███▍      | 340/1001 [3:15:13<5:31:59, 30.13s/it] 34%|███▍      | 341/1001 [3:16:18<7:27:18, 40.66s/it] 34%|███▍      | 342/1001 [3:16:45<6:42:56, 36.69s/it] 34%|███▍      | 343/1001 [3:17:13<6:12:42, 33.99s/it] 34%|███▍      | 344/1001 [3:17:40<5:48:48, 31.85s/it] 34%|███▍      | 345/1001 [3:18:07<5:31:50, 30.35s/it] 35%|███▍      | 346/1001 [3:19:18<7:44:26, 42.54s/it] 35%|███▍      | 347/1001 [3:19:45<6:53:07, 37.90s/it] 35%|███▍      | 348/1001 [3:20:13<6:19:57, 34.91s/it] 35%|███▍      | 349/1001 [3:20:39<5:51:43, 32.37s/it] 35%|███▍      | 350/1001 [3:21:06<5:32:49, 30.67s/it] 35%|███▌      | 351/1001 [3:22:13<7:30:42, 41.60s/it] 35%|███▌      | 352/1001 [3:22:40<6:43:00, 37.26s/it] 35%|███▌      | 353/1001 [3:23:06<6:05:51, 33.88s/it] 35%|███▌      | 354/1001 [3:23:33<5:44:13, 31.92s/it] 35%|███▌      | 355/1001 [3:24:01<5:30:40, 30.71s/it] 36%|███▌      | 356/1001 [3:25:07<7:22:50, 41.20s/it] 36%|███▌      | 357/1001 [3:25:33<6:34:26, 36.75s/it] 36%|███▌      | 358/1001 [3:26:01<6:04:46, 34.04s/it] 36%|███▌      | 359/1001 [3:26:29<5:45:36, 32.30s/it] 36%|███▌      | 360/1001 [3:26:56<5:27:20, 30.64s/it] 36%|███▌      | 361/1001 [3:27:56<6:59:08, 39.29s/it] 36%|███▌      | 362/1001 [3:28:23<6:20:44, 35.75s/it] 36%|███▋      | 363/1001 [3:28:50<5:53:45, 33.27s/it] 36%|███▋      | 364/1001 [3:29:17<5:33:18, 31.39s/it] 36%|███▋      | 365/1001 [3:29:45<5:21:51, 30.36s/it] 37%|███▋      | 366/1001 [3:30:46<6:58:25, 39.54s/it] 37%|███▋      | 367/1001 [3:31:14<6:19:47, 35.94s/it] 37%|███▋      | 368/1001 [3:31:41<5:52:22, 33.40s/it] 37%|███▋      | 369/1001 [3:32:09<5:33:20, 31.65s/it] 37%|███▋      | 370/1001 [3:32:36<5:18:37, 30.30s/it]
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  330  | Loss VAE: 9.9669 | Loss MSE: 4.0350  | lr :  9.359374600873921e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+189.25059119468833
+Epoch :  331  | Loss VAE: 9.5631 | Loss MSE: 4.0101  | lr :  9.357502725953747e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  332  | Loss VAE: 9.6271 | Loss MSE: 4.0140  | lr :  9.355631225408555e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  333  | Loss VAE: 9.7966 | Loss MSE: 4.0230  | lr :  9.353760099163475e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  334  | Loss VAE: 9.7994 | Loss MSE: 4.0161  | lr :  9.351889347143643e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  335  | Loss VAE: 9.5495 | Loss MSE: 4.0011  | lr :  9.350018969274214e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+180.99238386695956
+Epoch :  336  | Loss VAE: 9.7087 | Loss MSE: 4.0104  | lr :  9.348148965480358e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  337  | Loss VAE: 9.9974 | Loss MSE: 4.0253  | lr :  9.346279335687262e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  338  | Loss VAE: 9.9935 | Loss MSE: 4.0233  | lr :  9.344410079820126e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  339  | Loss VAE: 9.6733 | Loss MSE: 4.0028  | lr :  9.342541197804163e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  340  | Loss VAE: 9.8301 | Loss MSE: 4.0107  | lr :  9.340672689564602e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+184.44172662584944
+Epoch :  341  | Loss VAE: 9.8549 | Loss MSE: 4.0086  | lr :  9.338804555026688e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  342  | Loss VAE: 9.8220 | Loss MSE: 4.0077  | lr :  9.336936794115682e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  343  | Loss VAE: 9.7392 | Loss MSE: 3.9986  | lr :  9.33506940675686e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  344  | Loss VAE: 9.8578 | Loss MSE: 4.0017  | lr :  9.333202392875509e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  345  | Loss VAE: 9.8908 | Loss MSE: 4.0037  | lr :  9.331335752396935e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+185.28079528134668
+Epoch :  346  | Loss VAE: 9.7573 | Loss MSE: 3.9945  | lr :  9.329469485246455e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  347  | Loss VAE: 10.1352 | Loss MSE: 4.0148  | lr :  9.327603591349407e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  348  | Loss VAE: 9.8224 | Loss MSE: 3.9936  | lr :  9.325738070631136e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  349  | Loss VAE: 10.2067 | Loss MSE: 4.0123  | lr :  9.323872923017011e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  350  | Loss VAE: 9.8682 | Loss MSE: 3.9960  | lr :  9.322008148432407e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+185.81662889067556
+Epoch :  351  | Loss VAE: 9.8753 | Loss MSE: 3.9879  | lr :  9.320143746802721e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  352  | Loss VAE: 10.0478 | Loss MSE: 4.0008  | lr :  9.31827971805336e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  353  | Loss VAE: 10.1668 | Loss MSE: 3.9999  | lr :  9.31641606210975e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  354  | Loss VAE: 10.2112 | Loss MSE: 4.0050  | lr :  9.314552778897328e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  355  | Loss VAE: 10.5265 | Loss MSE: 4.0227  | lr :  9.312689868341549e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+189.78601002722996
+Epoch :  356  | Loss VAE: 11.7846 | Loss MSE: 4.0906  | lr :  9.31082733036788e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  357  | Loss VAE: 12.3824 | Loss MSE: 4.1251  | lr :  9.308965164901807e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  358  | Loss VAE: 22.9861 | Loss MSE: 4.9168  | lr :  9.307103371868827e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  359  | Loss VAE: 20.2681 | Loss MSE: 4.6604  | lr :  9.305241951194453e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  360  | Loss VAE: 14.7154 | Loss MSE: 4.2808  | lr :  9.303380902804215e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+184.0698451072077
+Epoch :  361  | Loss VAE: 14.3370 | Loss MSE: 4.2398  | lr :  9.301520226623655e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  362  | Loss VAE: 13.8026 | Loss MSE: 4.2035  | lr :  9.29965992257833e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  363  | Loss VAE: 12.7950 | Loss MSE: 4.1515  | lr :  9.297799990593815e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  364  | Loss VAE: 12.7008 | Loss MSE: 4.1380  | lr :  9.295940430595695e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  365  | Loss VAE: 12.6380 | Loss MSE: 4.1289  | lr :  9.294081242509577e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+184.0914107465047
+Epoch :  366  | Loss VAE: 12.2239 | Loss MSE: 4.1066  | lr :  9.292222426261076e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  367  | Loss VAE: 12.1587 | Loss MSE: 4.1016  | lr :  9.290363981775824e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  368  | Loss VAE: 12.0014 | Loss MSE: 4.0867  | lr :  9.288505908979468e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  369  | Loss VAE: 11.8008 | Loss MSE: 4.0745  | lr :  9.286648207797673e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0109, device='cuda:0', grad_fn=<StdBackward0>)
+Epoch :  370  | Loss VAE: 11.6967 | Loss MSE: 4.0697  | lr :  9.284790878156113e-05
+tensor(0.0008, device='cuda:0', grad_fn=<MeanBackward0>) 37%|███▋      | 371/1001 [3:33:42<7:09:06, 40.87s/it] 37%|███▋      | 372/1001 [3:34:09<6:24:46, 36.70s/it] 37%|███▋      | 373/1001 [3:34:37<5:57:22, 34.14s/it] 37%|███▋      | 374/1001 [3:35:04<5:33:51, 31.95s/it] 37%|███▋      | 375/1001 [3:35:30<5:16:11, 30.31s/it] 38%|███▊      | 376/1001 [3:36:36<7:06:09, 40.91s/it] 38%|███▊      | 377/1001 [3:37:03<6:21:51, 36.72s/it] 38%|███▊      | 378/1001 [3:37:30<5:51:01, 33.81s/it] 38%|███▊      | 379/1001 [3:37:55<5:22:32, 31.11s/it] 38%|███▊      | 380/1001 [3:38:23<5:12:18, 30.17s/it] 38%|███▊      | 381/1001 [3:39:31<7:10:33, 41.67s/it] 38%|███▊      | 382/1001 [3:39:58<6:25:08, 37.33s/it] 38%|███▊      | 383/1001 [3:40:24<5:48:37, 33.85s/it] 38%|███▊      | 384/1001 [3:40:52<5:31:26, 32.23s/it] 38%|███▊      | 385/1001 [3:41:19<5:14:54, 30.67s/it] 39%|███▊      | 386/1001 [3:42:25<7:02:39, 41.24s/it] 39%|███▊      | 387/1001 [3:42:51<6:13:34, 36.51s/it] 39%|███▉      | 388/1001 [3:43:17<5:42:21, 33.51s/it] 39%|███▉      | 389/1001 [3:43:44<5:22:20, 31.60s/it] 39%|███▉      | 390/1001 [3:44:12<5:09:10, 30.36s/it]
