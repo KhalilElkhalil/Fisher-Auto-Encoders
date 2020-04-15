@@ -110,7 +110,7 @@ print('flow_scale: {}'.format(flow_scale))
 print(conv)
 
 # VAE
-latent_size = 512
+latent_size = 64
 if flow:
     flow_width = 256
     flow_layers =  8
@@ -139,7 +139,7 @@ scheduler = make_scheduler(scheduler_name, optimizer, milestones=[25, 50, 70, 90
 file_prefix = 'flow={}_latent={}_'.format(flow,latent_size)
 
 # sample from the prior then decode to generate new images 
-def sample_images(local_vae, file_prefix, flow, epoch, mu, std):
+def sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size):
     if flow:
         x_hat_fisher = svgd.generate_images_nosvgd(model=local_vae, num_samples=100, mu=mu, std=std)
         plt.figure()
@@ -148,7 +148,7 @@ def sample_images(local_vae, file_prefix, flow, epoch, mu, std):
         plt.savefig('{}generated_samples_epoch{}.png'.format(file_prefix,epoch))
         plt.close('all')
     else:
-        x_hat_fisher = svgd.generate_images(model=local_vae.cpu(), num_samples=100, n_iter=30000, stepsize=1e-3)
+        x_hat_fisher = svgd.generate_images(model=local_vae.cpu(), img_size = img_size, num_samples=100, n_iter=30000, stepsize=1e-3)
         plt.figure()
         show(make_grid(x_hat_fisher[0:64], padding=0))
         plt.title('Generated data (exp. prior) flow={}'.format(flow))
@@ -207,11 +207,11 @@ for epoch in tqdm(range(num_epochs+1)):
 
     # print loss at the end of every epoch
     print('Epoch : ', epoch, ' | Loss VAE: {:.4f} | Loss MSE: {:.4f}'.format(loss_epoch / len(loader), mse_epoch / len(loader)), ' | lr : ', optimizer.param_groups[0]['lr'])
-    if epoch % 10 == 0 and epoch != 0 :
-        x_hat_fisher = sample_images(local_vae, file_prefix, flow, epoch, mu, std)
+    if epoch % 10 == 0 :
+        x_hat_fisher = sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size = data_shape)
 
         # compute FID score
-        fid_api.initialize_fid(test_loader, sample_size=10000)
+        fid_api.initialize_fid(test_loader, sample_size=1000)
         score_fisher = fid_api.fid_images(x_hat_fisher)
         print(score_fisher)
 

@@ -29,12 +29,13 @@ def get_celeba(batch_size, dataset_directory, dataloader_workers=4, train_size =
 
     # Use sampler for randomization
     training_sampler = torch.utils.data.SubsetRandomSampler(range(len(train_dataset)))
+    test_sampler = torch.utils.data.SubsetRandomSampler(range(len(test_dataset)))
 
     # Prepare Data Loaders for training and validation
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, sampler=training_sampler,
                                                pin_memory=True, num_workers=dataloader_workers)
 
-    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, sampler=training_sampler,
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, sampler=test_sampler,
                                                pin_memory=True, num_workers=dataloader_workers)
     return train_loader, test_loader
 

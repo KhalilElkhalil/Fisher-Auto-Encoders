@@ -1,0 +1,42 @@
+  0%|          | 0/1001 [00:00<?, ?it/s]lr: 0.0001
+epochs: 1000
+batch_size: 100
+n_prior_update: 10
+flow_scale: 10
+{'width': 128}
+Sequential(
+  (0): Conv2d(3, 128, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv2d(128, 256, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Conv2d(256, 512, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (7): ReLU()
+  (8): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (9): Conv2d(512, 1024, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (10): ReLU()
+  (11): Flatten()
+)
+Sequential(
+  (0): Linear(in_features=64, out_features=65536, bias=True)
+  (1): Unflatten()
+  (2): Upsample2d()
+  (3): Conv2d(1024, 512, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (4): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (5): ReLU()
+  (6): Upsample2d()
+  (7): Conv2d(512, 256, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (8): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (9): ReLU()
+  (10): Upsample2d()
+  (11): Conv2d(256, 128, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (12): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (13): ReLU()
+  (14): Conv2d(128, 3, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+)
+Epoch :  0  | Loss VAE: 572662031469858560.0000 | Loss MSE: 1755.6416  | lr :  0.0001
+  0%|          | 1/1001 [18:35<309:46:17, 1115.18s/it]250.98279646645486
+  0%|          | 2/1001 [36:15<304:54:54, 1098.79s/it]Epoch :  1  | Loss VAE: 7613.8262 | Loss MSE: 1624.9644  | lr :  0.0001
+  0%|          | 3/1001 [53:57<301:31:21, 1087.66s/it]Epoch :  2  | Loss VAE: 5945.8883 | Loss MSE: 1604.0401  | lr :  0.0001
+  0%|          | 4/1001 [1:11:39<299:03:49, 1079.87s/it]Epoch :  3  | Loss VAE: 5200.0381 | Loss MSE: 1595.3273  | lr :  0.0001

@@ -48,7 +48,8 @@ class SVGD_model():
         return x
 
 # generate images from random input using SVGD 
-def generate_images(model, num_samples, n_iter=16000, stepsize=1e-4):
+def generate_images(model, num_samples, img_size,  n_iter=16000, stepsize=1e-4):
+    img_size[0] = num_samples
     if model.Fisher is True:
         # SVGD samppling 
         def dlnp(z):
@@ -70,18 +71,19 @@ def generate_images(model, num_samples, n_iter=16000, stepsize=1e-4):
         # decode samples 
         x_hat = model.decode(torch.tensor(samples, dtype=torch.float))
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(img_size)
         
     else:
         z = torch.randn(num_samples, model.latent_size)
         x_hat = model.decode(z)
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(img_size)
         
     return x_hat
 
 # generate images from random input using SVGD
-def generate_images(model, num_samples, n_iter=16000, stepsize=1e-4):
+def generate_images(model, num_samples, img_size, n_iter=16000, stepsize=1e-4):
+
     if model.Fisher is True:
         # SVGD samppling
         def dlnp(z):
@@ -109,13 +111,13 @@ def generate_images(model, num_samples, n_iter=16000, stepsize=1e-4):
         # decode samples
         x_hat = model.decode(torch.tensor(samples, dtype=torch.float))
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(num_samples, img_size[1], img_size[2], img_size[3])
 
     else:
         z = torch.randn(num_samples, model.latent_size)
         x_hat = model.decode(z)
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(num_samples, img_size[1], img_size[2], img_size[3])
 
     return x_hat
 

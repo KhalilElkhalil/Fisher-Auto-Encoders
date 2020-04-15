@@ -17,8 +17,8 @@ class VAE(nn.Module):
 
         if conv:
             self.enc, self.dec = get_conv_nets(latent_size = latent_size, **conv)
-            self.enc1 = nn.Linear(conv['width']*8*4*4, latent_size)
-            self.enc2 = nn.Linear(conv['width']*8*4*4, latent_size)
+            self.enc1 = nn.Linear(conv['width']*8*8*8, latent_size)
+            self.enc2 = nn.Linear(conv['width']*8*8*8, latent_size)
 
         else:
             # encoder
@@ -173,42 +173,47 @@ class Flatten(nn.Module):
         return x.view(x.size(0), -1)
 
 class Unflatten(nn.Module):
-    def __init__(self, im_size=2):
+    def __init__(self, im_size=8):
         super(Unflatten, self).__init__()
         self.im_size = im_size
 
     def forward(self, x):
         return x.view(x.size(0), -1, self.im_size, self.im_size)
 
-def get_conv_nets(latent_size, width=128, in_channels=3, fs=3, act=nn.LeakyReLU(), n_layers=4, pooling = nn.AvgPool2d(2), sigmoid = False):
+def get_conv_nets(latent_size, width=128, in_channels=3, fs=5, act=nn.ReLU(), n_layers=4, pooling = nn.AvgPool2d(2), sigmoid = False):
 
     padding = math.floor(fs/2)
 
     enc_modules = [nn.Conv2d(in_channels, width, fs, padding = padding), nn.ReLU(), nn.MaxPool2d(2)]
-    dec_modules = [nn.Linear(latent_size, width *4*4*4), Unflatten()]
+    dec_modules = [nn.Linear(latent_size, width *8*8*8), Unflatten()]
 
     for i in range(1, n_layers):
 
-        enc_modules += [nn.Conv2d(width * 2 **(i - 1), width * 2 ** i, fs, padding = padding),
-                act,
-                pooling]
+        if i == n_layers - 1:
+            enc_modules += [nn.Conv2d(width * 2 **(i - 1), width * 2 ** i, fs, padding = padding),
+                    act]
+        else:
+            enc_modules += [nn.Conv2d(width * 2 **(i - 1), width * 2 ** i, fs, padding = padding),
+                    act,
+                    pooling]
 
-    for i in range(n_layers, 0, -1):
+    for i in range(n_layers-1, 0, -1):
 
-        dec_modules += [nn.Conv2d(width * 2 ** i , width * 2 ** i, fs, padding = padding),
-            Upsample2d(),
+        dec_modules += [Upsample2d(),
             nn.Conv2d(width * 2 ** i, width * 2 ** (i - 1), fs, padding = padding),
             nn.BatchNorm2d(width * 2 ** (i - 1)),
             act]
 
     enc_modules.append(Flatten())
-    dec_modules += [Upsample2d(),
-            nn.Conv2d(width, in_channels, fs, padding = padding)]
+    dec_modules += [nn.Conv2d(width, in_channels, fs, padding = padding)]
 
     if sigmoid:
         dec_modules.append(nn.Sigmoid())
 
     conv_encoder = nn.Sequential( * enc_modules)
     conv_decoder = nn.Sequential( * dec_modules)
+
+    print(conv_encoder)
+    print(conv_decoder)
 
     return conv_encoder, conv_decoder
