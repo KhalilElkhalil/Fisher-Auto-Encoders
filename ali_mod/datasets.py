@@ -23,9 +23,11 @@ def get_celeba(batch_size, dataset_directory, dataloader_workers=4, train_size =
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
     ])
     celeb_dataset = torchvision.datasets.ImageFolder(dataset_directory + 'celeba', train_transformation)
+
     lengths_ = [math.floor(len(celeb_dataset) * train_size), math.ceil(len(celeb_dataset) * ( 1 - train_size ) )]
 
     train_dataset, test_dataset = torch.utils.data.random_split(celeb_dataset, lengths_)
+
 
     # Use sampler for randomization
     training_sampler = torch.utils.data.SubsetRandomSampler(range(len(train_dataset)))
@@ -33,10 +35,10 @@ def get_celeba(batch_size, dataset_directory, dataloader_workers=4, train_size =
 
     # Prepare Data Loaders for training and validation
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, sampler=training_sampler,
-                                               pin_memory=True, num_workers=dataloader_workers)
+                                               pin_memory=True, num_workers=dataloader_workers, drop_last=True)
 
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, sampler=test_sampler,
-                                               pin_memory=True, num_workers=dataloader_workers)
+                                               pin_memory=True, num_workers=dataloader_workers, drop_last=True)
     return train_loader, test_loader
 
 def get_mnist(batch_size, dataset_directory):

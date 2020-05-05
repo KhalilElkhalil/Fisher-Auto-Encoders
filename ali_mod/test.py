@@ -22,8 +22,6 @@ import math
 import copy 
 import time
 
-import hamiltorch
-
 import fid_api
 
 from nets import VAE
@@ -68,7 +66,7 @@ def make_optimizer(optimizer_name, model, flow = None, **kwargs):
         params = [{'params': model.parameters(), 'lr': kwargs['lr']}]
 
     if optimizer_name=='Adam':
-        optimizer = optim.Adam(params, betas=[0.9, 0.999])
+        optimizer = optim.Adam(params, betas=[0.5, 0.999])
     elif optimizer_name=='SGD':
         optimizer = optim.SGD(model.parameters(),lr=kwargs['lr'],momentum=kwargs['momentum'], weight_decay=kwargs['weight_decay'])
     elif optimizer_name == 'RMSprop':
@@ -89,15 +87,15 @@ def make_scheduler(scheduler_name, optimizer, **kwargs):
 
 # training parameters
 optimizer_name = 'Adam'
-scheduler_name = 'MultiStepLR'
+scheduler_name = 'exponential'
 num_epochs = 300
-lr = 1e-4
+lr = 2e-4
 device = torch.device(device)
 torch.manual_seed(1)
 torch.cuda.manual_seed(1)
-flow = True
-n_prior_update = 5
-flow_scale = 1
+flow = False 
+n_prior_update = 10
+flow_scale = 10
 
 if data_name == 'celeba':
     conv = {'width' : 64}
@@ -114,7 +112,7 @@ print(conv)
 # VAE
 latent_size = 64 
 if flow:
-    flow_width  = 256 
+    flow_width = 256
     flow_layers =  8
     modules = []
     mask = torch.arange(0, latent_size) % 2
@@ -122,10 +120,10 @@ if flow:
 
     for _ in range(flow_layers):
         modules += [
-            #flows.LUInvertibleMM(latent_size),
+            flows.LUInvertibleMM(latent_size),
             flows.CouplingLayer(
                 latent_size, flow_width, mask, 0,
-                s_act='tanh', t_act='relu')
+                s_act='relu', t_act='relu')
         ]
         mask = 1 - mask
 
@@ -133,8 +131,11 @@ if flow:
 else:
     flow_net = None
 
-local_vae = VAE(feature_size=784, latent_size=latent_size, M=8, conv=conv, flow=flow_net, Fisher=True, exp_family=True).to(device)
-#local_vae.load_state_dict(torch.load('model_epoch_90_celeba.pth'))
+net_path = 'results/fisher_gauss_zay/model_epoch_73_celeba.pth'
+
+local_vae = VAE(feature_size=784, latent_size=latent_size, M=8, conv=conv, flow=flow_net, Fisher=False, exp_family=False).to(device)
+local_vae.load_state_dict(torch.load(net_path))
+local_vae.eval()
 
 optimizer = make_optimizer(optimizer_name, local_vae, flow = flow_net, lr=lr, weight_decay=0, momentum=0.01, flow_scale=flow_scale)
 scheduler = make_scheduler(scheduler_name, optimizer, milestones=[25, 50, 70, 90], factor=0.5)
@@ -142,17 +143,16 @@ scheduler = make_scheduler(scheduler_name, optimizer, milestones=[25, 50, 70, 90
 file_prefix = 'flow={}_latent={}_'.format(flow,latent_size)
 
 # sample from the prior then decode to generate new images 
-def sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size):
-    flow = False
+def sample_images(local_vae, file_prefix, flow, epoch, mu, std, num_samples, img_size):
     if flow:
-        x_hat_fisher = svgd.generate_images_nosvgd(model=local_vae, img_size= img_size, num_samples=100,mu=mu,std=std)
+        x_hat_fisher = svgd.generate_images_nosvgd(model=local_vae, img_size= img_size, num_samples=num_samples, mu=mu, std=std)
         plt.figure()
         show(make_grid(x_hat_fisher[0:64], padding=0, normalize=True))
         plt.title('Generated data (exp. prior) flow={}'.format(flow))
         plt.savefig('{}generated_samples_epoch{}.png'.format(file_prefix,epoch))
         plt.close('all')
     else:
-        x_hat_fisher = svgd.generate_images(model=local_vae.cpu(), img_size = img_size, num_samples=100, n_iter=50000, stepsize=1e-4)
+        x_hat_fisher = svgd.generate_images(model=local_vae.cpu(), img_size = img_size, num_samples=num_samples, n_iter=50000, stepsize=1e-4)
         plt.figure()
         show(make_grid(x_hat_fisher[0:64], padding=0, normalize=True))
         plt.title('Generated data (exp. prior) flow={}'.format(flow))
@@ -161,29 +161,6 @@ def sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size):
         local_vae.to(device)
 
     return x_hat_fisher
-
-def sample_hmcmc(local_vae, file_prefix, flow, epoch):
-
-    hamiltorch.set_random_seed(123)
-    params_init = torch.ones(latent_size + 1)
-    params_init[0] = 0.
-    step_size = 0.3093
-    num_samples = 500
-    L = 25
-    omega=100
-    threshold = 1e-3
-    softabs_const=10**6
-
-    params_hmc = hamiltorch.sample(log_prob_func=model.dlnpz_exp, params_init=params_init, num_samples=num_samples,
-                                   step_size=step_size, num_steps_per_sample=L)
-
-    samples = local_vae.decode(params_hmc)
-
-    plt.title('Generated data (exp. prior) flow={}'.format(flow))
-    plt.savefig('{}generated_samples_hmc={}_epoch{}.png'.format(file_prefix,local_vae.exp_family,epoch))
-    plt.close('all')
-    return samples
-
 
 
 # Train the VAE
@@ -196,49 +173,14 @@ for epoch in tqdm(range(num_epochs+1)):
 
         data_shape = data.shape
 
-        # zero grad
-        optimizer.zero_grad()
+        num_samples = 256
 
-        # forward pass
-        if data_name == 'mnist':
-            data = Variable(data.reshape(data.shape[0], 784), requires_grad=True).to(device)
-        else:
-            data = Variable(data, requires_grad=True).to(device)
+        mu = 0 
+        std = 1
 
-
-        if iter_ % n_prior_update :
-            output = local_vae.forward(data,detach=False)
-        else:
-            output = local_vae.forward(data)
-
-        loss, mse = local_vae.loss(data, output)
-        mu  =0  
-        std =1 
-        loss_epoch += loss.item()
-        mse_epoch += mse.item()
-
-        plt.figure()
-        show(make_grid(output[0][0:64, :].view(-1,data_shape[1],data_shape[2],data_shape[3]).cpu().detach(), padding=0, normalize=True))
-        plt.savefig('{}train_samps_poly.png'.format(file_prefix))
-        plt.close('all')
-
-        # backward pass
-        loss.backward()
-
-        # update parameters
-        optimizer.step()
-    scheduler.step()
-
-    # print loss at the end of every epoch
-    print('Epoch : ', epoch, ' | Loss VAE: {:.4f} | Loss MSE: {:.4f}'.format(loss_epoch / len(loader), mse_epoch / len(loader)), ' | lr : ', optimizer.param_groups[0]['lr'])
-    if epoch % 1 == 0 :
-        x_hat_fisher = sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size = data_shape)
+        x_hat_fisher = sample_images(local_vae, file_prefix, flow, epoch, mu, std, img_size = data_shape, num_samples = num_samples)
 
         # compute FID score
-        fid_api.initialize_fid(test_loader, sample_size=100)
+        fid_api.initialize_fid(test_loader, sample_size=num_samples)
         score_fisher = fid_api.fid_images(x_hat_fisher)
         print(score_fisher)
-
-        # save the model
-        torch.save(local_vae.state_dict(), 'model_epoch_{}_{}_fisher{}.pth'.format(epoch,data_name,local_vae.Fisher))
-

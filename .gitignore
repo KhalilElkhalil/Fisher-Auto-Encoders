@@ -1,0 +1,5 @@
+*.png
+*.pth
+ali_mod/results/*
+*.out
+ali_mod/out_aae3/*

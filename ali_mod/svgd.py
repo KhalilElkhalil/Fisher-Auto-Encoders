@@ -84,7 +84,7 @@ def generate_images(model, num_samples, img_size,  n_iter=16000, stepsize=1e-4):
 # generate images from random input using SVGD
 def generate_images(model, num_samples, img_size, n_iter=16000, stepsize=1e-4):
 
-    if model.Fisher is True:
+    if model.Fisher is True and model.exp_family is True:
         # SVGD samppling
         def dlnp(z):
             '''
@@ -111,34 +111,34 @@ def generate_images(model, num_samples, img_size, n_iter=16000, stepsize=1e-4):
         # decode samples
         x_hat = model.decode(torch.tensor(samples, dtype=torch.float))
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, img_size[1], img_size[2], img_size[3])
+        x_hat = x_hat.reshape(-1, img_size[1], img_size[2], img_size[3])
 
     else:
         z = torch.randn(num_samples, model.latent_size)
         x_hat = model.decode(z)
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, img_size[1], img_size[2], img_size[3])
+        x_hat = x_hat.reshape(-1, img_size[1], img_size[2], img_size[3])
 
     return x_hat
 
 
 
-def generate_images_nosvgd(model, num_samples, mu, std):
+def generate_images_nosvgd(model, num_samples,img_size, mu, std):
     if model.Fisher is True:
         z0 = torch.randn((num_samples, model.latent_size)).to('cuda:0')
         # z0 = 2*torch.rand(num_samples, model.latent_size) - 1
         # z0 = z0.to(device)
-        z = model.flow.sample(noise= z0)
+        #z = model.flow.sample(noise= z0)
         
         # decode samples 
-        x_hat = model.decode(z)
+        x_hat = model.decode(z0)
         x_hat = x_hat.cpu().detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(-1, img_size[1], img_size[2], img_size[3])
         
     else:
-        z = torch.randn(num_samples, model.latent_size)
+        z = torch.randn(num_samples, model.latent_size).to('cuda:0')
         x_hat = model.decode(z)
         x_hat = x_hat.detach()
-        x_hat = x_hat.reshape(num_samples, 1, 28, 28)
+        x_hat = x_hat.reshape(-1, img_size[1], img_size[2], img_size[3])
         
     return x_hat
