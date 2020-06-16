@@ -1,1 +1,1 @@
-# FisherVAE
+# Fisher Auto-Encoders
