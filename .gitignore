@@ -2,4 +2,6 @@
 *.pth
 ali_mod/results/*
 *.out
-ali_mod/out_aae3/*
+ali_mod/out_aae3*/*
+*.pkl
+ali_mod/*
